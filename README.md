@@ -1,1 +1,2 @@
-ALX work in progreaa
+This repo holds the entire project
+
