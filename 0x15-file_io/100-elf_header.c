@@ -13,7 +13,7 @@
  */
 void _is_elf(char *h)
 {
-	if(h[0] != 0x7f || h[1] != 'E' || h[2] != 'L' || h[3] != 'F')
+	if (h[0] != 0x7f || h[1] != 'E' || h[2] != 'L' || h[3] != 'F')
 		dprintf(STDERR_FILENO, "Error: file is not ELF type"), exit(98);
 }
 
