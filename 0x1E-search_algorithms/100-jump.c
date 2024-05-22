@@ -2,7 +2,7 @@
 #include <math.h>
 
 /**
- * Description: A jump_search - searches for a value in an array of 
+ * Description: A jump_search - searches for a value in an array of
  * integers that use the Jump search algorithm
  *
  * @array: input array first
