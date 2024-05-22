@@ -2,13 +2,14 @@
 #include <math.h>
 
 /**
- * Description: A jump_search - searches for a value in an array of integers that use the Jump search algorithm
+ * Description: A jump_search - searches for a value in an array of 
+ * integers that use the Jump search algorithm
+ *
  * @array: input array first
  * @size: The size of the array
  * @value: The value to search in
- * Return: An index of the number
+ * Return: An index of the number Always EXIT_SUCCESS
  */
-
 int jump_search(int *array, size_t size, int value)
 {
 	int index, m, k, prev;
