@@ -9,6 +9,8 @@
  * @size: The size of the array
  * @value: The value to search in
  * Return: An index of the number Always EXIT_SUCCESS
+ *
+ * Description: Array of squared numbers
  */
 int jump_search(int *array, size_t size, int value)
 {
